@@ -2,9 +2,6 @@
   <div class="Header">
     <div class="container h-100 flex-align-center">
       <nuxt-link to="/" class="lh-0 flex-align-center">
-        <logo width="32px"
-              height="32px"/>
-
         <h2 class="ml-16">
           PaoStudio.Art
         </h2>

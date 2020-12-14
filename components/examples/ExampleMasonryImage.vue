@@ -2,7 +2,8 @@
   <section>
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{item}">
-        <div class="Item">
+        <nuxt-link :to="`/${item.link}`">
+        <div class="Item" @click="onConfirmation">
           <img :src="item.image"/>
 
           <div class="Content">
@@ -10,6 +11,7 @@
             <p class="text-ellipsis-2l">{{item.content}}</p>
           </div>
         </div>
+        </nuxt-link>
       </template>
     </vue-masonry-wall>
   </section>
@@ -34,34 +36,51 @@
           {
             title: 'Wood Series',
             content: 'Clay Sculptures',
-            image: 'swood.jpg'
+            image: 'swood.jpg',
+            link: 'swood'
           },
           {
             title: 'Abstract Forms',
             content: 'Clay Sculptures',
-            image: 'pabstract.jpg'
+            image: 'pabstract.jpg',
+            link: 'pabstract'
           },
           {
             title: 'Organic Forms',
             content: 'Clay Sculptures',
-            image: 'sorganic.jpg'
+            image: 'sorganic.jpg',
+            link: 'sorganic'
           },
           {
             title: 'Metal Series',
             content: 'Clay Sculptures',
-            image: 'smetal.jpg'
+            image: 'smetal.jpg',
+            link: 'smetal'
           },
           {
             title: 'Nature Series',
             content: 'Paintings',
-            image: 'pnature.jpg'
+            image: 'pnature.jpg',
+            link: 'pnature'
           },
           {
             title: 'Chicken Series',
             content: 'Paintings',
-            image: 'pchickens.jpg'
+            image: 'pchickens.jpg',
+            link: 'pchicken'
           },
         ]
+      }
+    },
+    methods: {
+      onConfirmation() {
+        this.$store.commit('dialog/set', {
+          name: 'ConfirmationDialog',
+          props: {
+            title: 'Are your sure?',
+            message: 'By confirming you will...'
+          }
+        })
       }
     }
   }
