@@ -3,7 +3,7 @@
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{item}">
         <nuxt-link :to="`/${item.link}`">
-        <div class="Item" @click="onConfirmation">
+        <div class="Item">
           <img :src="item.image"/>
 
           <div class="Content">
@@ -70,17 +70,6 @@
             link: 'pchicken'
           },
         ]
-      }
-    },
-    methods: {
-      onConfirmation() {
-        this.$store.commit('dialog/set', {
-          name: 'ConfirmationDialog',
-          props: {
-            title: 'Are your sure?',
-            message: 'By confirming you will...'
-          }
-        })
       }
     }
   }
