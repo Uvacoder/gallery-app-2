@@ -1,5 +1,5 @@
-const title = 'nuxt-app'
-const description = 'Nuxt app template project with my customisation.'
+const title = 'PaoStudio.Art'
+const description = 'Website for Artist Pao Hung'
 const image = ''
 
 export default {
@@ -38,7 +38,6 @@ export default {
     '~/plugins/err',
     '~/plugins/path',
     '~/plugins/router',
-
     '~/plugins/vue-rx',
     '~/plugins/vue-observe-visibility.js',
   ],

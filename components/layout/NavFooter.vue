@@ -1,17 +1,9 @@
 <template>
-  <nav class="mt-64 pt-32 pb-64">
+  <nav class="mt-64 pt-40 pb-32">
     <div class="container">
-
-      <div class="flex-1-2-3 m--16">
-        <div class="p-16">
-          <div class="flex">
-            <nuxt-link to="/" class="lh-0">
-              <logo width="32px"
-                    height="32px"/>
-            </nuxt-link>
-
-            <h4 class="ml-16">Nuxt App</h4>
-          </div>
+      <div class="flex-1-2-3 mt-32">
+        <div>
+          &copy; <nuxt-link to="/about">Pao Hung</nuxt-link>. All Rights Reserved.
         </div>
       </div>
     </div>
@@ -27,17 +19,11 @@
 <style scoped lang="less">
   nav {
     background: #fff;
-    color: #222;
-  }
-
-  h4 {
-    margin-bottom: 8px;
+    color: #666;
   }
 
   a {
-    color: white;
-    text-decoration: none;
-
-    margin-bottom: 2px;
+    color: #666;
+    text-decoration: underline;
   }
 </style>

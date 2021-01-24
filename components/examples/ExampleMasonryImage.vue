@@ -42,14 +42,8 @@
           {
             title: 'Abstract Forms',
             content: 'Clay Sculptures',
-            image: 'pabstract.jpg',
-            link: 'pabstract'
-          },
-          {
-            title: 'Organic Forms',
-            content: 'Clay Sculptures',
-            image: 'sorganic.jpg',
-            link: 'sorganic'
+            image: 'sabstract.jpg',
+            link: 'sabstract'
           },
           {
             title: 'Metal Series',
@@ -58,17 +52,29 @@
             link: 'smetal'
           },
           {
+            title: 'Organic Forms',
+            content: 'Clay Sculptures',
+            image: 'sorganic.jpg',
+            link: 'sorganic'
+          },
+          {
             title: 'Nature Series',
             content: 'Paintings',
             image: 'pnature.jpg',
             link: 'pnature'
           },
           {
+            title: 'Abstract Forms',
+            content: 'Paintings',
+            image: 'pabstract.jpg',
+            link: 'pabstract'
+          },
+          {
             title: 'Chicken Series',
             content: 'Paintings',
             image: 'pchickens.jpg',
             link: 'pchicken'
-          },
+          }
         ]
       }
     }
@@ -93,6 +99,10 @@
 
   p {
     color: #eee;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   img {
