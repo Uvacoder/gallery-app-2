@@ -26,6 +26,7 @@
             <li>2000-Present : Into abstract and monotype painting.</li>
             <li>2019 : Exhibited at The White Barn, St. Helena, California: <a href="https://napavalleyregister.com/community/star/lifestyles/st-helena-artist-brushes-up-on-her-feathered-friends/article_4a42f0d1-afd2-5a77-b2fe-55cedbc2c01d.html">View Info</a></li>
             </ul>
+            <p>If you are interested in Pao Hung’s work, whether personally, commercially, or would like to invite her to exhibit her artwork for your organization, please feel free to contact her by email: paostudioart@gmail.com</p>
         </div>
     </div>
 </template>

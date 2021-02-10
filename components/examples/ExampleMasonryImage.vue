@@ -36,44 +36,44 @@
           {
             title: 'Wood Series',
             content: 'Clay Sculptures',
-            image: 'swood.jpg',
+            image: 'swood/swood.jpg',
             link: 'swood'
           },
           {
             title: 'Abstract Forms',
             content: 'Clay Sculptures',
-            image: 'sabstract.jpg',
+            image: '/sabstract/sabstract.jpg',
             link: 'sabstract'
           },
           {
             title: 'Metal Series',
             content: 'Clay Sculptures',
-            image: 'smetal.jpg',
+            image: '/smetal/smetal.jpg',
             link: 'smetal'
           },
           {
             title: 'Organic Forms',
             content: 'Clay Sculptures',
-            image: 'sorganic.jpg',
+            image: '/sorganic/sorganic.jpg',
             link: 'sorganic'
           },
           {
             title: 'Nature Series',
             content: 'Paintings',
-            image: 'pnature.jpg',
+            image: '/pnature/pnature.jpg',
             link: 'pnature'
           },
           {
             title: 'Abstract Forms',
             content: 'Paintings',
-            image: 'pabstract.jpg',
+            image: '/pabstract/pabstract.jpg',
             link: 'pabstract'
           },
           {
             title: 'Chicken Series',
             content: 'Paintings',
-            image: 'pchickens.jpg',
-            link: 'pchicken'
+            image: '/pchickens/pchickens.jpg',
+            link: 'pchickens'
           }
         ]
       }
