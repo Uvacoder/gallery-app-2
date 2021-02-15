@@ -36,7 +36,7 @@
           {
             title: 'Wood Series',
             content: 'Clay Sculptures',
-            image: 'swood/swood.jpg',
+            image: '/swood/swood.jpg',
             link: 'swood'
           },
           {

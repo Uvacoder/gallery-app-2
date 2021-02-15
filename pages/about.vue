@@ -41,13 +41,17 @@
   }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
   h3 {
     margin: 10px 0;
   }
 
   h4 {
       margin: 30px 0;
+  }
+
+  p {
+    margin: 30px 0;
   }
 
   .content {

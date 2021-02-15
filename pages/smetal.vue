@@ -6,13 +6,15 @@
       :disable-scroll="true"
       @close="index = null"
     />
-    <h3>Sculptures - Wood</h3>
+    <h3>Sculptures - Metal</h3>
     <ul>
       <li
         v-for="(thumb, thumbIndex) in [
-          '/swood/swood01-150x150.jpg',
-          '/swood/swood02-150x150.jpg',
-          '/swood/swood03-150x150.jpg',
+            '/smetal/smetal01-150x150.jpg',
+            '/smetal/smetal02-150x150.jpg',
+            '/smetal/smetal03-150x150.jpg',
+            '/smetal/smetal04-150x150.jpg',
+            '/smetal/smetal05-150x150.jpg',
         ]"
         :key="thumbIndex"
         @click="index = thumbIndex"
@@ -34,9 +36,11 @@ import Vue from 'vue';
     data() {
       return {
         images: [
-          { title:'Setback (7" x 7" x 16")', url: '/swood/swood01.jpg' },
-          { title:'Aged (10" x 10" x 12")', url: '/swood/swood02.jpg' },
-          { title:'Burnt (18" x 8" x 6")', url: '/swood/swood03.jpg' },
+            { title:'Autumn (12" x 9.5" x 8")', url: '/smetal/smetal01.jpg' },
+            { title:'Late Autumn (12" x 12" x 22")', url: '/smetal/smetal02.jpg' },
+            { title:'After All (20" x 13" x 11")', url: '/smetal/smetal03.jpg' },
+            { title:'Went By (8" x 4" x 12")', url: '/smetal/smetal04.jpg' },
+            { title:'Inevitable (11" x 11" x 21")', url: '/smetal/smetal05.jpg' },
         ],
         index: null,
       };
@@ -64,6 +68,6 @@ import Vue from 'vue';
   }
 
   img {
-    border: 1px solid #666;
+      border: 1px solid #666;
   }
 </style>

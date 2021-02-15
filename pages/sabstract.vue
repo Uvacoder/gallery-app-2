@@ -6,13 +6,12 @@
       :disable-scroll="true"
       @close="index = null"
     />
-    <h3>Sculptures - Wood</h3>
+    <h3>Sculptures - Abstract</h3>
     <ul>
       <li
         v-for="(thumb, thumbIndex) in [
-          '/swood/swood01-150x150.jpg',
-          '/swood/swood02-150x150.jpg',
-          '/swood/swood03-150x150.jpg',
+          '/sabstract/sabstract01-150x150.jpg',
+          '/sabstract/sabstract02-150x150.jpg',
         ]"
         :key="thumbIndex"
         @click="index = thumbIndex"
@@ -34,9 +33,8 @@ import Vue from 'vue';
     data() {
       return {
         images: [
-          { title:'Setback (7" x 7" x 16")', url: '/swood/swood01.jpg' },
-          { title:'Aged (10" x 10" x 12")', url: '/swood/swood02.jpg' },
-          { title:'Burnt (18" x 8" x 6")', url: '/swood/swood03.jpg' },
+          { title:'Obsession (20" x 16" x 10")', url: '/sabstract/sabstract01.jpg' },
+          { title:'Balancing (N/A)', url: '/sabstract/sabstract02.jpg' },
         ],
         index: null,
       };
