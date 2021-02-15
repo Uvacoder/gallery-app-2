@@ -6,21 +6,15 @@
     <div class="flex-grow">
       <nuxt/>
     </div>
-
-    <global-dialog/>
-    <global-notification/>
     <nav-footer class="elevation-2"/>
   </div>
 </template>
 
 <script>
-  import NavHeader from "../components/layout/NavHeader";
-  import NavFooter from "../components/layout/NavFooter";
-  import GlobalDialog from "../components/layout/GlobalDialog";
-  import GlobalNotification from "../components/layout/GlobalNotification";
-
+  import NavHeader from "../components/NavHeader";
+  import NavFooter from "../components/NavFooter";
   export default {
-    components: {GlobalNotification, GlobalDialog, NavFooter, NavHeader}
+    components: {NavFooter, NavHeader}
   }
 </script>
 

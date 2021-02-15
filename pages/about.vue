@@ -33,16 +33,6 @@
     </div>
 </template>
 
-<script>
-  import ExampleMasonryImage from "../components/examples/ExampleMasonryImage";
-
-  export default {
-    components: {
-      ExampleMasonryImage,
-    }
-  }
-</script>
-
 <style lang="less" scoped>
   h3 {
     margin: 10px 0;

@@ -1,15 +1,15 @@
 <template>
   <div class="container pt-32 pb-128">
-    <example-masonry-image/>
+    <masonry-images/>
   </div>
 </template>
 
 <script>
-  import ExampleMasonryImage from "../components/examples/ExampleMasonryImage";
+  import MasonryImages from "../components/MasonryImages";
 
   export default {
     components: {
-      ExampleMasonryImage,
+      MasonryImages,
     }
   }
 </script>
