@@ -23,8 +23,10 @@
             <li>1998 : Invited by the People’s Republic of China to exhibit at the First International Show in Yixing, China.</li>
             <li>1998 : Xu of China purchased work for their family-owned museum.</li>
             <li>1999 : Guest ceramist at Suzhou University of Art &amp; Design, Suzhou, China. Work now in the University’s museum.</li>
-            <li>2000-Present : Into abstract and monotype painting.</li>
-            <li>2019 : Exhibited at The White Barn, St. Helena, California: <a href="https://napavalleyregister.com/community/star/lifestyles/st-helena-artist-brushes-up-on-her-feathered-friends/article_4a42f0d1-afd2-5a77-b2fe-55cedbc2c01d.html">View Info</a></li>
+            <li>2000-2019 : Into abstract and monotype painting.</li>
+            <li>2019 : Exhibited at The White Barn, St. Helena, California: <a href="https://napavalleyregister.com/community/star/lifestyles/st-helena-artist-brushes-up-on-her-feathered-friends/
+            article_4a42f0d1-afd2-5a77-b2fe-55cedbc2c01d.html">View Info</a></li>
+            <li>2020-Present : Illustrations for books.</li>
             </ul>
             <p>If you are interested in Pao Hung’s work, whether personally, commercially, or would like to invite her to exhibit her artwork for your organization, please feel free to contact her by email: paostudioart@gmail.com</p>
         </div>
