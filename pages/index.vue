@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-32 pb-128">
+  <div class="container pt-32">
     <masonry-images/>
   </div>
 </template>
@@ -34,5 +34,7 @@
 
   .masonry-bottom {
     margin-top: 0 !important;
+    padding-top: 0 !important;
+    min-height: auto !important;
   }
 </style>
