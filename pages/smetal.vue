@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container box">
     <LightGallery
       :images="images"
       :index="index"
@@ -7,7 +7,7 @@
       @close="index = null"
     />
     <h3>Sculptures - Metal</h3>
-    <ul>
+    <ul class="display">
       <li
         v-for="(thumb, thumbIndex) in [
             '/smetal/smetal01-150x150.jpg',
@@ -46,23 +46,3 @@
     },
   };
 </script>
-<style scoped>
-  h3 {
-    margin: 30px 15px 0 15px;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 40px;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 15px;
-    justify-content: space-evenly;
-  }
-
-  img {
-      border: 1px solid #666;
-  }
-</style>

@@ -14,9 +14,9 @@
   }
 </script>
 
-<style lang="less">
+<style>
   h3 {
-    margin-bottom: 8px;
+    margin: 30px 15px 8px 0;
   }
 
   section {
@@ -36,5 +36,29 @@
     margin-top: 0 !important;
     padding-top: 0 !important;
     min-height: auto !important;
+  }
+
+  .display {
+    max-width: 800px;
+    list-style: none;
+    margin: 40px auto auto 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  }
+
+  .display li {
+      line-height: 0 !important;
+      height: 150px !important;
+  }
+
+  .display img {
+      border: 1px solid #666;
+  }
+
+  .box {
+    max-width: 1000px;
+    padding: 0 2.5rem;
   }
 </style>
