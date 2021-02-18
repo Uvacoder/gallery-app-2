@@ -15,8 +15,7 @@
           '/swood/swood03-150x150.jpg',
         ]"
         :key="thumbIndex"
-        @click="index = thumbIndex"
-      >
+        @click="index = thumbIndex">
         <img :src="thumb">
       </li>
     </ul>

@@ -1,8 +1,8 @@
 <template>
   <nav class="mt-64 pt-40 pb-32">
-    <div class="container box">
+    <div class="container">
       <div class="flex-1-2-3 mt-32">
-        <div>
+        <div class="ml-16">
           &copy; <nuxt-link to="/about">Pao Hung</nuxt-link>. All Rights Reserved.
         </div>
       </div>

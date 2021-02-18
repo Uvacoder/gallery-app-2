@@ -6,9 +6,7 @@
           PaoStudio.Art
         </h2>
       </nuxt-link>
-
       <div class="flex-grow"/>
-
       <div class="flex-wrap m--8">
       </div>
     </div>

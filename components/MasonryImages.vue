@@ -5,7 +5,6 @@
         <nuxt-link :to="`/${item.link}`">
         <div class="Item">
           <img :src="item.image"/>
-
           <div class="Content">
             <h5 class="text-ellipsis-1l">{{item.title}}</h5>
             <p class="text-ellipsis-2l">{{item.content}}</p>
