@@ -6,7 +6,7 @@
       :disable-scroll="true"
       @close="index = null"
     />
-    <h3>Paintings - Abstract</h3>
+    <h3>Paintings - Chickens</h3>
     <ul>
       <li
         v-for="(thumb, thumbIndex) in [
