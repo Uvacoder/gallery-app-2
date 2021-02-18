@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import Vue from 'vue';
   import { LightGallery } from 'vue-light-gallery';
 
   export default {
@@ -44,10 +43,6 @@ import Vue from 'vue';
 <style scoped>
   h3 {
     margin: 30px 15px 0 15px;
-  }
-
-  .light-gallery__close {
-    margin-top: 5em;
   }
 
   ul {

@@ -22,4 +22,13 @@
   section {
     margin-bottom: 64px;
   }
+
+  .light-gallery__text {
+    bottom: -34px;
+    font-size: 12px;
+  }
+
+  .light-gallery__close {
+    margin-top: 5em;
+  }
 </style>
