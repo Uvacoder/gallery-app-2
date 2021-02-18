@@ -21,7 +21,7 @@
   import VueMasonryWall from "vue-masonry-wall";
 
   export default {
-    name: "ExampleMasonry",
+    name: "MasonryImages",
     components: {VueMasonryWall},
     data() {
       return {

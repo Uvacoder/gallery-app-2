@@ -24,11 +24,15 @@
   }
 
   .light-gallery__text {
-    bottom: -34px;
+    bottom: -34px !important;
     font-size: 12px;
   }
 
   .light-gallery__close {
     margin-top: 5em;
+  }
+
+  .masonry-bottom {
+    margin-top: 0 !important;
   }
 </style>
