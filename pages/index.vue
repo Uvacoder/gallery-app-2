@@ -24,7 +24,7 @@
   }
 
   .light-gallery__text {
-    bottom: -34px !important;
+    bottom: -35px !important;
     padding: 12px !important;
     font-size: 12px;
   }
