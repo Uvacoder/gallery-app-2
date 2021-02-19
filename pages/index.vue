@@ -25,11 +25,18 @@
 
   .light-gallery__text {
     bottom: -34px !important;
+    padding: 12px !important;
     font-size: 12px;
   }
 
   .light-gallery__close {
     margin-top: 5em;
+    right: 1.5% !important;
+  }
+
+  .light-gallery__image img {
+    max-width: auto !important;
+    max-height: 85vh !important;
   }
 
   .masonry-bottom {
@@ -60,5 +67,10 @@
   .box {
     max-width: 1000px;
     padding: 0 2.5rem;
+  }
+
+  button {
+    width: 80px;
+    height: 60px;
   }
 </style>
