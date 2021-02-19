@@ -3,7 +3,8 @@ const description = 'Website for Artist Pao Hung'
 const image = ''
 
 export default {
-  mode: 'spa',
+  ssr: false,
+  target: 'static',
   head: {
     title: title,
     meta: [
@@ -79,5 +80,8 @@ export default {
     cacheTime: 1000 * 60 * 15,
     exclude: [],
     routes: []
+  },
+  generate: {
+    fallback: true
   }
 }
