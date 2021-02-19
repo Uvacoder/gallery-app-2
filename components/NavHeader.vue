@@ -19,7 +19,7 @@
   }
 </script>
 
-<style scoped lang="less">
+<style scoped>
   .Header {
     height: 64px;
     position: fixed;
