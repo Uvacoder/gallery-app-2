@@ -30,8 +30,9 @@
   }
 
   .light-gallery__close {
-    margin-top: 5em;
+    margin-top: 5%;
     right: 1.5% !important;
+    display: block !important;
   }
 
   .light-gallery__image img {
