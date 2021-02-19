@@ -3,9 +3,9 @@
     <vue-masonry-wall :items="items" :options="options" @append="append">
       <template v-slot:default="{item}">
         <nuxt-link :to="`/${item.link}`">
-        <div class="Item">
+        <div class="item">
           <img :src="item.image"/>
-          <div class="Content">
+          <div class="content">
             <h5 class="text-ellipsis-1l">{{item.title}}</h5>
             <p class="text-ellipsis-2l">{{item.content}}</p>
           </div>
@@ -81,14 +81,14 @@
 </script>
 
 <style scoped>
-  .Item {
+  .item {
     overflow: hidden;
     border-radius: 4px;
     width: 100%;
     background: #262626;
   }
 
-  .Content {
+  .content {
     padding: 20px;
   }
 
@@ -111,4 +111,27 @@
     line-height: 0;
     display: block;
   }
+
+  .masonry-column:nth-child(1) img {
+    animation: fade-in 3s 1 ease-in-out forwards;
+  }
+
+  .masonry-column:nth-child(2) img {
+    animation: fade-in 4s 1 ease-in-out forwards;
+  }
+  
+  .masonry-column:nth-child(3) img {
+    animation: fade-in 5s 1 ease-in-out forwards;
+  }
+  
+  .masonry-column:nth-child(4) img {
+    animation: fade-in 6s 1 ease-in-out forwards;
+  }
+
+
+
+@keyframes fade-in {
+  0%  { opacity: 0; }
+  100% { opacity: 1; } 
+}
 </style>
